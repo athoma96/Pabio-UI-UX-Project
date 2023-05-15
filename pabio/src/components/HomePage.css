@@ -1,0 +1,161 @@
+/* General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #999;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Furniture categories*/
+
+.furniture-categories {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.furniture-categories-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.furniture-categories-items {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.category-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.category-item img {
+  width: 200px;
+  height: 150px;
+}
+
+.category-details {
+  text-align: left;
+}
+
+.category-price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/*Top Deals Section*/
+
+.top-deals {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.top-deals-items-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.top-deals-items {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.deal-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.deal-item img {
+  width: 200px;
+  height: 150px;
+}
+
+.deal-details {
+  text-align: left;
+}
+
+.deal-price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+/* Most wanted */
+
+.most-wanted {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.most-wanted-items-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.most-wanted-items {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.most-wanted-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.most-wanted-item img {
+  width: 200px;
+  height: 150px;
+}
+
+.most-wanted-details {
+  text-align: left;
+}
+
+.most-wanted-price {
+  font-weight: bold;
+  margin-top: 10px;
+}
